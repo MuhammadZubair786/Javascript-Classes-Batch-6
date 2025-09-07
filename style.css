@@ -1,0 +1,17 @@
+/* body{
+    background-color: red;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+table{
+    width: 80%;
+    margin: 20px;
+
+}
+tr,td{
+    border: 1px solid grey;
+    border-radius: 20%;
+    padding: 20px;
+}
