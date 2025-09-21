@@ -5,6 +5,9 @@
 // var salary =["10000",9000,8000,7000,6000]
 // console.log(typeof salary[0])
 
+// 1d,2d,3d
+// [[[1,23]]]
+
 // var salary =[]  //=>square barckrt
 // // {}
 // // ()
@@ -221,30 +224,38 @@
 
 // Calculator :
 
-var numb1 = +prompt("Enter First Number")
-var numb2 = +prompt("Enter Second Number")
-var opeartor = prompt("Enter operator")
+// var numb1 = +prompt("Enter First Number")
+// var numb2 = +prompt("Enter Second Number")
+// var opeartor = prompt("Enter operator")
 
-if(opeartor=="+"){
-  document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1+numb2))
+// if(opeartor=="+"){
+//   document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1+numb2))
 
-}
-else if(opeartor=="-"){
-  document.writeln("Sub of "+numb1 +" and " + numb2 + " is :" +(numb1-numb2))
+// }
+// else if(opeartor=="-"){
+//   document.writeln("Sub of "+numb1 +" and " + numb2 + " is :" +(numb1-numb2))
 
-}
+// }
 
-else if(opeartor=="*"){
-  document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1*numb2))
+// else if(opeartor=="*"){
+//   document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1*numb2))
 
-}
-else if(opeartor=="/"){
-  document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1/numb2))
+// }
+// else if(opeartor=="/"){
+//   document.writeln("Sum of "+numb1 +" and " + numb2 + " is :" +(numb1/numb2))
 
-}
-else {
-  document.writeln("enter correct data")
-}
+// }
+// else {
+//   document.writeln("enter correct data")
+// }
+
+// arithmetic  op:(+,-,/,%,*)
+// logical op 
+// && : true=>and
+// ||=>true=>or
+// !=> not 
+
+// salary >50000 ||  username == "ali" 
 
 
 

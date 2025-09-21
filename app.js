@@ -259,6 +259,11 @@
 var selection = +prompt(
   "enter one selection \n  1) for buy tshirt \n 2) for Buy ac \n  3) for buy laptop "
 );
+
+if(selection==" "){
+  alert("please enter must data")
+
+}
 if (selection == 1) {
   var quantity = +prompt("enter quantity of tshirt");
 
@@ -271,15 +276,15 @@ if (selection == 1) {
         var discount = (5 * 100)*0.30
         var afterdiscount = 500-discount
         var netamount = afterdiscount+calculateamount1
-        console.log("toatl amount ",netamount+discount,"your order price is ",netamount,"discount :",discount)
-
+        document.writeln("toatl amount ",netamount+discount,"your order price is ",netamount,"discount :",discount)
+        
 
     }
     else if(quantity==4){
 
         var discount = (4 * 100)*0.20
         var afterdiscount = 400-discount
-        console.log("toatl amount ",afterdiscount+discount,"your order price is ",afterdiscount,"discount :",discount)
+       document.writeln("toatl amount ",afterdiscount+discount,"your order price is ",afterdiscount,"discount :",discount)
 
 
     }
@@ -287,12 +292,12 @@ if (selection == 1) {
 
         var discount = (quantity * 100)*0.10
         var afterdiscount = (quantity*100)-discount
-        console.log("toatl amount ",afterdiscount+discount,"your order price is ",afterdiscount,"discount :",discount)
+        document.writeln("toatl amount ",afterdiscount+discount,"your order price is ",afterdiscount,"discount :",discount)
 
 
     }
     else{
-           console.log("your order price is ",quantity*100)
+           document.writeln("your order price is ",quantity*100)
     }
     
   }

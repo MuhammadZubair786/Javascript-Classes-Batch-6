@@ -1,0 +1,156 @@
+// ESCAPE Character(\n=>new line)
+scope(class,function,block)
+var,let,const
+var => global scope(Class)
+let =>block,function
+const =>block,function,fixed
+
+varaible =>memory location =>store varaible
+premtitive =>store single data =>bool,string,number
+non premetivite=>store multiply=>array,object,set,map
+
+varaible name 
+START $,_,letter
+not start +,1,&
+
+center=>test1,test_new_1
+not=>operator=>+,-,*
+
++  =>
+new user+* = 
+
+
+var varaiable; //declare
+var variablename = value // inlization
+
+
+
+// alert,prompt,typeof=>function=/()=>create outisde class
+// document=>class=>oops
+// writeln=>method =>()=>class.method()
+// property=>class.property
+
+array =>array.length
+
+predefined
+userdefined
+
+
+void
+
+// operation
+// Airthmetics(+,-,*,/,%,(modules),**(double astries)=>reminander)
+// Logical operator(&&(And),||(Or),!(Not))=>two satements
+// Relational Operator (<,>,<=,>=,==,===,!=) single
+
+// Conditions ()
+// if: one statement
+// if else : two statement
+// if else if else: multiply statements
+
+// if,else=>keyword ()=>IF=>name fixed=>language =>netscap
+
+// if(conditions){
+//block statements
+// }
+
+// global scope: class
+// function scope : function =>return
+// block scope: loop,if else,{}
+
+
+Array
+hetegenous=>different type
+homogenous=>same data  type
+
+Push,pop,shift,unshift,Splice,slice,sort,reverse,join
+push=>add last.push("value)
+pop=>remove from last=>.pop()
+unshift=>add in start=>.unshift("value")
+shift=>remove from start=>.shift()
+slice=> make new array=>.slice(startindex,endingindex-1)
+splce=>also add or remove=>.splice(index,deletecount,add new value)
+.reverse=>.reverse()=>order
+.sort()=>data stort
+.join()=>data .join("joindata")=>.join("&")=>array to string
+
+
+String method =>
+string=>collection of letters or words=>premetive data 
+toString()
+charCodeAt(indexnumber)=>return ascii value=>Password
+charAt(index)=>retrun Value
+toLowerCase
+toUpperCase
+startsWith("value")
+endsWith("value")
+includes("value")=>search present
+replaceAll
+replace
+
+Para=>Lorem Test New 
+loop
+
+Loop
+
+Password  
+
+strong password
+Abc123@!
+
+A To Z=>65 to 90
+a to z=>97 to 122
+0 to 9=>48 to 57
+
+A=65
+
+Password 
+
+Loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
