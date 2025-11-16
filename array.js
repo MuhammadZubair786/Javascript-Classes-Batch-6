@@ -2,7 +2,7 @@
 
 // console.log( username[5]) //index number=>return value
 
-// var salary =["10000",9000,8000,7000,6000]
+// var salary =[10000,9000,8000,7000,6000]
 // console.log(typeof salary[0])
 
 // 1d,2d,3d
@@ -97,7 +97,7 @@
 
 // var arr = ["This","is ","web and Mobile","Class"]
 // console.log(arr.length) //property
-// var arr1 = arr.join(" ")   //method
+// var arr1 = arr.join("-")   //method
 // console.log(arr1)
 
 // var arr1 = ["Keyboard","Mouse","printer","Monitor"]
@@ -133,6 +133,11 @@
 
 // var username = [10,100,20,200,300,30]
 // console.log(username.sort())
+
+
+Ali,ahmed,akber
+
+// 10,110,20,100,210=>loop
 
 // var phoneCompany = ["Apple","Samsung","Nokia","Realme","OPPO","Redmi","google pixel"]
 // document.writeln("<div style='width:400px;text-align:center;margin:auto'><h1>Phone Companies</h1>")
@@ -256,6 +261,24 @@
 // !=> not 
 
 // salary >50000 ||  username == "ali" 
+
+
+function UserInput(){
+  var userData = prompt("Enter data ")
+  for(var a = 0;a<userData.length;a++){
+    if(a==0){
+      userData  = userData.slice(a,1).toUpperCase()+userData.slice(1).toString().toLowerCase()
+
+    }
+    if(userData.charCodeAt(a)==32){//space 
+      userData  =userData.slice(0,a+1)+userData.slice(a+1,1).toUpperCase()+userData.slice(a+2).toString().toLowerCase()
+
+
+    }
+  }
+  console.log(userData)
+
+}
 
 
 

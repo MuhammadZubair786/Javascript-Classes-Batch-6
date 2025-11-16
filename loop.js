@@ -31,9 +31,9 @@
 //     document.writeln("<h1>Index of "+i+" and value is : "+ array[i]+"<br/><h1>")
 // }
 
-// var salaryperday = [500, 300,700,9000,200,100];
-// var employeeName = ["ali", "omer","khalid","baber","smit","memon"];
-// var presentDay = [10, 10,10,20,30,30];
+// var salaryperday = [500, 300,700,9000,200,100,700];
+// var employeeName = ["ali", "omer","khalid","baber","smit","memon","coding"];
+// var presentDay = [10, 10,10,20,30,30,30];
 
 // var totalPay =0;
 // for (var i = 0; i < salaryperday.length; i++) {
