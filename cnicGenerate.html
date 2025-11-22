@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       body{
+        display: flex;
+        justify-content: center;
+       }
+       button{
+        display: block;
+        width: 100px;
+        margin: auto;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="name">
+      <br>
+
+      <b id="nameError"></b>
+      <br>
+
+      <input type="text" id="email">
+      <br>
+
+      <b id="emailError"></b>
+      <br>
+
+      <input type="number" id="age">
+      <br>
+
+      <b id="ageError"></b>
+      <br>
+
+      <input type="text" id="password">
+      <br>
+
+      <b id="passwordError"></b>
+      <br>
+
+      <input type="number" id="contactno">
+      <br>
+
+      <b id="contactError"></b>
+      <br>
+
+      <input type="text" id="cnic" readonly placeholder="fill data or generate cnic">
+      <br>
+      <br>
+
+
+      <Button onclick="submit()">Submit</Button>
+    </div>
+    <script src="cnicGenerate.js"></script>
+  </body>
+</html>
